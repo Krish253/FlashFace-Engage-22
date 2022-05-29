@@ -16,7 +16,7 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="CRIMINALS"
-                  statTitle="10"
+                  statTitle="5"
                   statArrow="up"
                   statPercent="1"
                   statPercentColor="text-emerald-500"
