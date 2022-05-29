@@ -138,7 +138,7 @@ Face-Recognition based website for matching criminals face
   
  I really like turning ideas into reality.
   
- Microsoft Engage 2022 has been a great learning experience for me , and  
+ Microsoft Engage 2022 has been a great learning experience for me as I learnt a lot in it, and  
  I would like to thank Acehacker and Microsoft for this amazing opportunity. 
   
  Do connect with me through LinkedIn or Email and message me your recommendations regarding  
