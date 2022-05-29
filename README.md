@@ -17,7 +17,7 @@ Face-Recognition based website for matching criminals face
   
  To see the video demonstration, kindly use the below link to the YouTube Video. 
   
- Video Demonstration :  
+ [Video Demonstration](https://youtu.be/VHCnTKuCJuk) 
   
  ## Tech Stack 
   
@@ -43,12 +43,29 @@ Face-Recognition based website for matching criminals face
  **Start the backend server** 
   
  You can setup a virtual environment also (recommended) 
+ 
+ Virtual env can be set up by:
+ 
+ ```bash
+   cd Face-Recognition
+   virtualenv env
+   .\env\Scripts\activate.ps1
+```
   
  Install dependencies and open the project with the following commands: 
  ```bash 
-   cd Face-Recognition
    cd crime_detection 
    pip install -r requirements.txt 
+ ```
+ 
+ **Note IMPORTANT:** If you face errors in installing/buidling dlib library, please follow the [link](https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10)
+
+You need to download [Visual Studio](https://visualstudio.microsoft.com/downloads/) Community Version, and install the Desktop Development with C++. Then 
+download [CMake](https://cmake.org/download/) and install it. **Make sure you add the path to the bin folder of CMake in Program Files of C Drive, to environment variables**. For more details, use the link to the [issue](https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10).
+
+After succesfull installation of all the files in requirements.txt write the following commands:
+
+```bash
    python manage.py makemigrations 
    python manage.py migrate 
    python manage.py runserver 
@@ -59,6 +76,7 @@ Face-Recognition based website for matching criminals face
  **Start the frontend client** 
   
  Install dependencies and open the project with the following commands: 
+ 
  ```bash 
    cd notus-react-main 
    npm install
